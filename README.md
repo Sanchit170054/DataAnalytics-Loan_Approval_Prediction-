@@ -11,7 +11,7 @@ Company wants to automate the loan eligibility process (real time) based on cust
 
 So the final thing is to identify the factors/ customer segments that are eligible for taking loan. How will the company benefit if we give the customer segments is the immediate question that arises. The solution is ….Banks would give loans to only those customers that are eligible so that they can be assured of getting the money back. Hence the more accurate we are in predicting the eligible customers the more beneficial it would be for the XYZ Finance Company.
 
-</b>Type of problem:</b>
+<b>Type of problem:</b>
 
 The above problem is a clear classification problem as we need to classify whether the Loan_Status is yes or no. So this can be solved by any of the classification techniques like Decision Tree Algorithm.
 
@@ -22,24 +22,24 @@ The above problem is a clear classification problem as we need to classify wheth
 <b>
 Section: A (Exploratory Data Analysis)
 </b>
-1.  Let us analyse and visualize the categorical attribute of the given train dataset using single variable.                                      (15)
+1.  Let us analyse and visualize the categorical attribute of the given train dataset using single variable.                         (15)
 
- Find out the number of male and female in loan applicants data.
- Find out the number of married and unmarried loan applicants.
- Find out the overall dependent status in the dataset.
- Find the count how many loan applicants are graduate and non graduate.
-Find out the count how many loan applicants property lies in urban, rural and semi-urban areas.
-
-
+a. Find out the number of male and female in loan applicants data.
+b. Find out the number of married and unmarried loan applicants.
+c. Find out the overall dependent status in the dataset.
+d. Find the count how many loan applicants are graduate and non graduate.
+e. Find out the count how many loan applicants property lies in urban, rural and semi-urban areas.
 
 
-2.  What conclusions are you derived from the single variable analysis?                                                                                          (5)
 
-3.  To visualize and plot the distribution plot of all numerical attributes of the given train dataset i.e. ApplicantIncome,  CoApplicantIncome and LoanAmount.                                                                                                                                                                                                                                                                     (5)
 
-4. Also visualize and plot the Question-1 based on Loan_status of loan applicant (Multi variable analysis).                                   (20)
+2.  What conclusions are you derived from the single variable analysis?                                                              (5)
 
-5. What conclusions are you derived from the multi variable analysis?                                                                                             (5)
+3.  To visualize and plot the distribution plot of all numerical attributes of the given train dataset i.e. ApplicantIncome,  CoApplicantIncome and LoanAmount.                                                                                                                                                                                                                                                                                                                                          (5)
+
+4. Also visualize and plot the Question-1 based on Loan_status of loan applicant (Multi variable analysis).                          (20)
+
+5. What conclusions are you derived from the multi variable analysis?                                                                 (5)
 
 
 <b>
@@ -55,19 +55,19 @@ We’ll now predict if a consumer is likely to eligible for loan amount using th
 
  ii.     Load the train dataset and test dataset using the read_csv () function in pandas.
 
-iii.      Data Cleaning: Preprecessing of both dataset.
+iii.      <b>Data Cleaning:</b> Preprecessing of both dataset.
 
-              a)       Missing Values: Check where there are missing values and fix them appropriately.
+              a)      <b> Missing Values:</b> Check where there are missing values and fix them appropriately.
 
- iv.     Feature Selection: Separate the independent and dependent variables using the slicing method.
+ iv.    <b> Feature Selection:</b> Separate the independent and dependent variables using the slicing method.
 
- v.      Encoding to numeric data: Convert each of the categorical variables in to numeric data for modeling. For handling categorical variables, there are many methods like One Hot Encoding or Dummies. 
+ v.      <b>Encoding to numeric data:</b> Convert each of the categorical variables in to numeric data for modeling. For handling categorical variables, there are many methods like One Hot Encoding or Dummies. 
 
- vi.     Splitting Data: Split the data into training and testing sets.
+ vi.    <b> Splitting Data:</b> Split the data into training and testing sets.
 
- vii.    Building Decision Tree Model: Train the model using the decision tree classifier.
+ vii.    <b>Building Decision Tree Model:</b> Train the model using the decision tree classifier.
 
- viii.   Evaluating Model: Predict the test data set values using the model above.
+ viii.  <b> Evaluating Model: </b>Predict the test data set values using the model above.
 
   ix.    Calculate the accuracy of the model using the accuracy score function.
 
