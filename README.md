@@ -22,7 +22,7 @@ The above problem is a clear classification problem as we need to classify wheth
 <b>
 Section: A (Exploratory Data Analysis)
 </b>
-1.  Let us analyse and visualize the categorical attribute of the given train dataset using single variable.                         (15)
+1.  Let us analyse and visualize the categorical attribute of the given train dataset using single variable.                         
 
 a. Find out the number of male and female in loan applicants data.
 b. Find out the number of married and unmarried loan applicants.
@@ -33,13 +33,14 @@ e. Find out the count how many loan applicants property lies in urban, rural and
 
 
 
-2.  What conclusions are you derived from the single variable analysis?                                                              (5)
+2.  What conclusions are you derived from the single variable analysis?                                                              
 
-3.  To visualize and plot the distribution plot of all numerical attributes of the given train dataset i.e. ApplicantIncome,  CoApplicantIncome and LoanAmount.                                                                                                                                                                                                                                                                                                                                          (5)
+3.  To visualize and plot the distribution plot of all numerical attributes of the given 
+    train dataset i.e. ApplicantIncome,  CoApplicantIncome and LoanAmount.                                                                                                                                                                                                                                                                                                                                         
 
-4. Also visualize and plot the Question-1 based on Loan_status of loan applicant (Multi variable analysis).                          (20)
+4. Also visualize and plot the Question-1 based on Loan_status of loan applicant (Multi variable analysis).                          
 
-5. What conclusions are you derived from the multi variable analysis?                                                                 (5)
+5. What conclusions are you derived from the multi variable analysis?                                                                 
 
 
 <b>
@@ -47,7 +48,7 @@ e. Find out the count how many loan applicants property lies in urban, rural and
 </b>
 
 
-1.      Building a Decision Tree Classifier in Python using Scikit-learn Library                                                                       (50)
+1.      Building a Decision Tree Classifier in Python using Scikit-learn Library                                                                       
 
 We’ll now predict if a consumer is likely to eligible for loan amount using the decision tree algorithm in Python. The data set contains a wide range of information for making this prediction, including the gender, married, dependents, education, self-employed, applicant_income, co-applicant_income, loan_amount, loan amount term, credit_history, property_area and whether the individual was eligible for loan amount ( i.e. loan_status). The following steps should be followed during building a decision tree classifier:
 
@@ -57,7 +58,7 @@ We’ll now predict if a consumer is likely to eligible for loan amount using th
 
 iii.      <b>Data Cleaning:</b> Preprecessing of both dataset.
 
-              a)      <b> Missing Values:</b> Check where there are missing values and fix them appropriately.
+              a) Check where there are missing values and fix them appropriately.
 
  iv.    <b> Feature Selection:</b> Separate the independent and dependent variables using the slicing method.
 
